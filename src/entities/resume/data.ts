@@ -1,15 +1,15 @@
 import type { ResumeData } from './types';
-import profilePhoto from '@/assets/profile.jpeg';
+// import profilePhoto from '@/assets/profile.jpeg';
 
 export const resumeData: ResumeData = {
   personalInfo: {
-    name: '강민석',
-    photo: profilePhoto,
+    name: '김부캠',
+    photo: '',
     introduction: '사용자 경험을 고민하며 성장하는 프론트엔드 개발자입니다.',
-    birthDate: '2001.12.29',
-    address: '경기도 화성시 동탄반석로 232',
-    phone: '010-5340-5628',
-    email: 'min1042004444@gmail.com',
+    birthDate: '2222.22.22',
+    address: '대한민국 어딘가',
+    phone: '010-2222-2222',
+    email: 'qwer1234@gmail.com',
     hobby: '독서, 헬스',
     specialty: '사이드프로젝트',
     mbti: 'INFP',
@@ -19,13 +19,13 @@ export const resumeData: ResumeData = {
 
   education: [
     {
-      period: '2020.03 ~',
-      school: '백석대학교',
+      period: '2222.22 ~',
+      school: '부캠대학교',
       major: '소프트웨어학과',
     },
     {
-      period: '2017.03 - 2019.02',
-      school: '예당고등학교',
+      period: '2222.22 - 2222.22',
+      school: '부캠고등학교',
       status: '졸업',
     },
   ],
@@ -34,7 +34,7 @@ export const resumeData: ResumeData = {
   //   {
   //     date: '2022.11',
   //     title: '경진대회',
-  //     organization: '백석대학교',
+  //     organization: '부캠대학교',
   //   },
   // ],
 
@@ -43,6 +43,7 @@ export const resumeData: ResumeData = {
       title: '방탈기억',
       period: '2024.09 - 2025.06',
       description: '방탈출 플레이 내용을 기록하는 크로스플랫폼 앱 개발',
+      link: 'https://github.com/kang-min-seok/bangtal_memory',
       experiences: [
         '마켓 정식 출시 및 누적 다운로드 300+ 기록',
         '실제 사용자 리뷰 및 업데이트까지의 전체 서비스 생명주기 경험',
@@ -53,6 +54,7 @@ export const resumeData: ResumeData = {
       title: '게임테스트',
       period: '2023.12 - 2025.04',
       description: '게임 재능을 테스트할 수 있는 간단 게임을 제공하는 웹 개발',
+      link: 'https://game-ability-test.com/',
       experiences: [
         'canvas 기반의 인터랙티브 게임 개발 및 실시간 클릭 판정 알고리즘 최적화',
         'SEO 최적화를 통한 구글 검색 상위 노출',
@@ -74,7 +76,7 @@ export const resumeData: ResumeData = {
       ],
     },
     {
-      title: '백석대학교 산학협력단',
+      title: '부캠대학교 산학협력단',
       period: '2022.09 - 2024.01',
       experiences: [
         'openCV를 활용한 불량칩 감지 프로그램 개발',

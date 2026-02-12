@@ -32,6 +32,7 @@ export interface Project {
   description: string;
   experiences: string[];
   techStack?: string[];
+  link?: string;
 }
 
 export interface Activity {
