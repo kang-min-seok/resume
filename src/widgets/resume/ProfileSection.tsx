@@ -6,9 +6,9 @@ interface ProfileSectionProps {
 
 export function ProfileSection({ data }: ProfileSectionProps) {
   return (
-    <div className="flex items-center gap-6 border-b border-border pb-5">
+    <div className="flex items-start gap-5 border-b border-border pb-3">
       {/* 증명사진 */}
-      <div className="h-40 w-32 shrink-0 overflow-hidden rounded border border-border bg-border-light">
+      <div className="h-36 w-28 shrink-0 overflow-hidden rounded border border-border bg-border-light">
         {data.photo ? (
           <img
             src={data.photo}
@@ -25,7 +25,7 @@ export function ProfileSection({ data }: ProfileSectionProps) {
       {/* 이름 + 한줄 소개 */}
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold tracking-tight">{data.name}</h1>
-        <p className="text-sm leading-relaxed text-text-secondary">
+        <p className="text-lg leading-relaxed">
           {data.introduction}
         </p>
       </div>

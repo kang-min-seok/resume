@@ -18,7 +18,7 @@ const INFO_FIELDS: { label: string; key: keyof PersonalInfo }[] = [
 
 export function PersonalInfoSection({ data }: PersonalInfoSectionProps) {
   return (
-    <div className="grid grid-cols-2 gap-x-8 gap-y-1.5 border-b border-border py-4 text-sm">
+    <div className="grid grid-cols-2 gap-x-8 gap-y-1 border-b border-border py-3 text-sm">
       {INFO_FIELDS.map(({ label, key }) => (
         <div key={key} className="flex">
           <span className="w-20 shrink-0 font-medium text-text-secondary">

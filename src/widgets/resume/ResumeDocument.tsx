@@ -19,7 +19,7 @@ export const ResumeDocument = forwardRef(function ResumeDocument(
   return (
     <div
       ref={ref}
-      className="mx-auto w-[210mm] bg-surface px-12 py-10 shadow-lg"
+      className="mx-auto h-[1120px] w-[794px] overflow-hidden bg-surface px-10 py-7 shadow-lg"
     >
       <ProfileSection data={data.personalInfo} />
       <PersonalInfoSection data={data.personalInfo} />

@@ -6,6 +6,10 @@ import { PdfExportButton } from '@/features/pdf-export';
 export function ResumePage() {
   const { toPDF, targetRef } = usePDF({
     filename: `이력서_${resumeData.personalInfo.name}.pdf`,
+    page: {
+      format: 'A4',
+      orientation: 'portrait',
+    },
   });
 
   return (

@@ -37,8 +37,6 @@ export interface Project {
 export interface Activity {
   title: string;
   period: string;
-  organization: string;
-  description: string;
   experiences: string[];
 }
 

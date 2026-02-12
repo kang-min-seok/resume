@@ -8,7 +8,7 @@ interface ProjectsSectionProps {
 export function ProjectsSection({ data }: ProjectsSectionProps) {
   return (
     <Section title="사이드 프로젝트">
-      <ul className="space-y-4 text-sm">
+      <ul className="space-y-3 text-sm">
         {data.map((item, idx) => (
           <li key={idx} className="space-y-1.5">
             <div className="flex items-baseline gap-4">
