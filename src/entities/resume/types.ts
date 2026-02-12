@@ -30,7 +30,7 @@ export interface Project {
   title: string;
   period: string;
   description: string;
-  experience: string;
+  experiences: string[];
   techStack?: string[];
 }
 
@@ -39,7 +39,7 @@ export interface Activity {
   period: string;
   organization: string;
   description: string;
-  experience: string;
+  experiences: string[];
 }
 
 export interface ResumeData {

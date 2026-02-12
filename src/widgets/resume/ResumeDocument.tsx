@@ -24,9 +24,9 @@ export const ResumeDocument = forwardRef(function ResumeDocument(
       <ProfileSection data={data.personalInfo} />
       <PersonalInfoSection data={data.personalInfo} />
       <EducationSection data={data.education} />
-      <AwardsSection data={data.awards} />
-      <ProjectsSection data={data.projects} />
       <ActivitiesSection data={data.activities} />
+      <ProjectsSection data={data.projects} />
+      <AwardsSection data={data.awards} />
     </div>
   );
 });

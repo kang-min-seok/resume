@@ -42,16 +42,20 @@ export const resumeData: ResumeData = {
       title: '방탈기억',
       period: '2024.09 - 2025.06',
       description: '방탈출 플레이 내용을 기록하는 크로스플랫폼 앱 개발 프로젝트',
-      experience:
-        '이 프로젝트를 통해 느낀 점과 배운 점을 서술합니다.',
+      experiences: [
+        '느낀 점과 배운 점을 서술합니다.',
+        '느낀 점과 배운 점을 서술합니다.',
+      ],
       techStack: ['Flutter'],
     },
     {
       title: '게임테스트',
       period: '2023.12 - 2025.04',
       description: '프로젝트에 대한 간단한 설명을 작성합니다.',
-      experience:
-        '이 프로젝트를 통해 느낀 점과 배운 점을 서술합니다.',
+      experiences: [
+        '느낀 점과 배운 점을 서술합니다.',
+        '느낀 점과 배운 점을 서술합니다.',
+      ],
       techStack: ['React'],
     },
   ],
@@ -62,16 +66,20 @@ export const resumeData: ResumeData = {
       period: '2025.08 - 2026.02',
       organization: '네이버커넥트',
       description: '활동에 대한 간단한 설명을 작성합니다.',
-      experience:
-        '이 활동을 통해 느낀 점과 배운 점을 서술합니다.',
+      experiences: [
+        '느낀 점과 배운 점을 서술합니다.',
+        '느낀 점과 배운 점을 서술합니다.',
+      ],
     },
     {
       title: '백석대학교 산학협력단',
       period: '2022.09 - 2024.01',
       organization: '백석대학교',
       description: '활동에 대한 간단한 설명을 작성합니다.',
-      experience:
-        '이 활동을 통해 느낀 점과 배운 점을 서술합니다.',
+      experiences: [
+        '느낀 점과 배운 점을 서술합니다.',
+        '느낀 점과 배운 점을 서술합니다.',
+      ],
     },
   ],
 };

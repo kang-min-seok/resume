@@ -17,7 +17,13 @@ export function ActivitiesSection({ data }: ActivitiesSectionProps) {
               <span className="text-text-secondary">{item.organization}</span>
             </div>
             <p className="text-text-secondary">{item.description}</p>
-            <p className="text-text-secondary italic">{item.experience}</p>
+            {item.experiences.length > 0 && (
+              <ul className="list-disc space-y-0.5 pl-4 text-text-secondary">
+                {item.experiences.map((exp, i) => (
+                  <li key={i}>{exp}</li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ul>
