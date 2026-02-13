@@ -17,7 +17,7 @@ export interface Education {
   period: string;
   school: string;
   major?: string;
-  status: string;
+  status?: string;
 }
 
 export interface Award {
@@ -30,22 +30,21 @@ export interface Project {
   title: string;
   period: string;
   description: string;
-  experience: string;
+  experiences: string[];
   techStack?: string[];
+  link?: string;
 }
 
 export interface Activity {
   title: string;
   period: string;
-  organization: string;
-  description: string;
-  experience: string;
+  experiences: string[];
 }
 
 export interface ResumeData {
   personalInfo: PersonalInfo;
   education: Education[];
-  awards: Award[];
+  awards?: Award[];
   projects: Project[];
   activities: Activity[];
 }

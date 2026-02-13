@@ -2,10 +2,13 @@ import { Section } from '@/shared/ui';
 import type { Award } from '@/entities/resume';
 
 interface AwardsSectionProps {
-  data: Award[];
+  data?: Award[];
 }
 
 export function AwardsSection({ data }: AwardsSectionProps) {
+  if (!data || data.length === 0) {
+    return null;
+  }
   return (
     <Section title="수상">
       <ul className="space-y-2 text-sm">

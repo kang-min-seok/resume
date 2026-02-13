@@ -8,7 +8,7 @@ interface EducationSectionProps {
 export function EducationSection({ data }: EducationSectionProps) {
   return (
     <Section title="학력">
-      <ul className="space-y-2 text-sm">
+      <ul className="space-y-1.5 text-sm">
         {data.map((item, idx) => (
           <li key={idx} className="flex items-baseline gap-4">
             <span className="w-36 shrink-0 text-text-muted">{item.period}</span>

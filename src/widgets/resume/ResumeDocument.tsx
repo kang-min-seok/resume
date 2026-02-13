@@ -19,14 +19,14 @@ export const ResumeDocument = forwardRef(function ResumeDocument(
   return (
     <div
       ref={ref}
-      className="mx-auto w-[210mm] bg-surface px-12 py-10 shadow-lg"
+      className="mx-auto h-[1120px] w-[794px] overflow-hidden bg-surface px-10 py-7 shadow-lg"
     >
       <ProfileSection data={data.personalInfo} />
       <PersonalInfoSection data={data.personalInfo} />
       <EducationSection data={data.education} />
-      <AwardsSection data={data.awards} />
-      <ProjectsSection data={data.projects} />
       <ActivitiesSection data={data.activities} />
+      <ProjectsSection data={data.projects} />
+      <AwardsSection data={data.awards} />
     </div>
   );
 });

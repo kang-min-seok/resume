@@ -1,62 +1,88 @@
 import type { ResumeData } from './types';
+// import profilePhoto from '@/assets/profile.jpeg';
 
 export const resumeData: ResumeData = {
   personalInfo: {
-    name: '홍길동',
+    name: '김부캠',
     photo: '',
     introduction: '사용자 경험을 고민하며 성장하는 프론트엔드 개발자입니다.',
-    birthDate: '2000.01.01',
-    address: '서울특별시 강남구',
-    phone: '010-1234-5678',
-    email: 'example@email.com',
-    hobby: '독서, 러닝',
-    specialty: '웹 개발',
-    mbti: 'INTJ',
+    birthDate: '2222.22.22',
+    address: '대한민국 어딘가',
+    phone: '010-2222-2222',
+    email: 'qwer1234@gmail.com',
+    hobby: '독서, 헬스',
+    specialty: '사이드프로젝트',
+    mbti: 'INFP',
     religion: '무교',
     veteranStatus: '해당없음',
   },
 
   education: [
     {
-      period: '2019.03 - 2023.02',
-      school: 'OO대학교',
-      major: '컴퓨터공학과',
-      status: '졸업',
+      period: '2222.22 ~',
+      school: '부캠대학교',
+      major: '소프트웨어학과',
     },
     {
-      period: '2016.03 - 2019.02',
-      school: 'OO고등학교',
+      period: '2222.22 - 2222.22',
+      school: '부캠고등학교',
       status: '졸업',
     },
   ],
 
-  awards: [
-    {
-      date: '2023.11',
-      title: 'OO 해커톤 대상',
-      organization: 'OO기관',
-    },
-  ],
+  // awards: [
+  //   {
+  //     date: '2022.11',
+  //     title: '경진대회',
+  //     organization: '부캠대학교',
+  //   },
+  // ],
 
   projects: [
     {
-      title: '프로젝트명',
-      period: '2023.06 - 2023.08',
-      description: '프로젝트에 대한 간단한 설명을 작성합니다.',
-      experience:
-        '이 프로젝트를 통해 느낀 점과 배운 점을 서술합니다.',
-      techStack: ['React', 'TypeScript', 'Tailwind CSS'],
+      title: '방탈기억',
+      period: '2024.09 - 2025.06',
+      description: '방탈출 플레이 내용을 기록하는 크로스플랫폼 앱 개발',
+      link: 'https://github.com/kang-min-seok/bangtal_memory',
+      experiences: [
+        '마켓 정식 출시 및 누적 다운로드 300+ 기록',
+        '실제 사용자 리뷰 및 업데이트까지의 전체 서비스 생명주기 경험',
+      ],
+      techStack: ['Flutter'],
+    },
+    {
+      title: '게임테스트',
+      period: '2023.12 - 2025.04',
+      description: '게임 재능을 테스트할 수 있는 간단 게임을 제공하는 웹 개발',
+      link: 'https://game-ability-test.com/',
+      experiences: [
+        'canvas 기반의 인터랙티브 게임 개발 및 실시간 클릭 판정 알고리즘 최적화',
+        'SEO 최적화를 통한 구글 검색 상위 노출',
+        'React Helmet을 활용한 동적 메타데이터 설정',
+      ],
+      techStack: ['React'],
     },
   ],
 
   activities: [
     {
-      title: '활동명',
-      period: '2023.01 - 2023.06',
-      organization: 'OO기관',
-      description: '활동에 대한 간단한 설명을 작성합니다.',
-      experience:
-        '이 활동을 통해 느낀 점과 배운 점을 서술합니다.',
+      title: '네이버 부스트캠프 웹 풀스택 10기',
+      period: '2025.08 - 2026.02',
+      experiences: [
+        'CS, 도메인 지식 학습 및 프로젝트 적용',
+        '문서화 기술과 백로그 관리를 통한 효율적인 협업 실천',
+        'CRDT기반 실시간 화이트보드 서비스 개발',
+        'Throttling 기법을 통한 고빈도 소켓 이벤트 최적화',
+      ],
+    },
+    {
+      title: '부캠대학교 산학협력단',
+      period: '2022.09 - 2024.01',
+      experiences: [
+        'openCV를 활용한 불량칩 감지 프로그램 개발',
+        '차량 관제 프로그램 개발',
+        '농지 면적 계산 프로그램 개발',
+      ],
     },
   ],
 };

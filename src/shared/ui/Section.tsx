@@ -7,8 +7,8 @@ interface SectionProps {
 
 export function Section({ title, children }: SectionProps) {
   return (
-    <section className="py-5">
-      <h2 className="mb-3 border-b-2 border-primary pb-1 text-base font-bold text-primary">
+    <section className="py-3">
+      <h2 className="mb-2 border-b-2 border-primary pb-1 text-base font-bold text-primary">
         {title}
       </h2>
       {children}
